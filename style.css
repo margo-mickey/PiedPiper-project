@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+}
+body {
+margin: 0;
+}
+.top-menu {
+    background: #007765;
+    /* padding: 20px 155px; */
+    padding-left: 2%;
+    
+    margin-bottom: 0;
+    position: fixed;
+    width: 100%;
+  }
+  .logo_1{
+    padding-top: 5%;
+  }
+  .navbar-logo {
+    display: inline-block;
+  }
+  .menu-main {
+    list-style: none;
+    margin-right: 6%;
+    padding: 0;
+    float: right;
+  }
+  .menu-main li {
+    display: inline-block;
+  }
+  .menu-main a::after {
+    content: "|";
+    color: white;
+    padding-left: 10px;
+  }
+  .exept_a::after {
+    display: none;
+    margin: 0;
+  }
+  .menu-main a {
+    text-decoration: none;
+    display: block;
+    line-height: 61px;
+    padding-left: 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    color: white;
+    transition:.3s linear; 
+  }
+  .intro {
+    height: 350px;  
+    background-color: rgb(0, 0, 0);
+    background-image: url(green-theme.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+  }
+  .intro_text {
+      text-align: center;
+      margin: auto;
+      font-size: 550%;  
+      font-family: Roboto, sans-serif;
+      font-weight: 500;  
+      font-style: normal;  
+      color: white;
+  }
+  .the_problem {
+      margin: 0;
+      height: 100%;
+      background-color: #eeeeee;
+
+  }
+  .the_problem_title {
+      font-size: 400%;
+      text-align: center;
+      color: #007765;
+      padding-top: 3%;
+      padding-bottom: 1%;
+      font-family: Roboto, sans-serif;
+      font-weight: 500;  
+      font-style: normal; 
+      margin: 0;
+  }
+  .the_problem_text {
+      width: 69%;
+      margin: auto;
+      font-family: Roboto, sans-serif;
+      font-weight: 500;  
+      font-style: normal; 
+      font-size: 190%;
+      padding-bottom: 4%;
+  }
+  .pre_wrap_part {
+      white-space: pre-wrap;
+  }
+  .together {
+      height: 350px;  
+      background-color: rgb(69, 118, 209);
+      background-image: url(blue-theme.png);
+      background-size: cover;
+      background-position: center;
+      margin: 0;
+      display: flex;  
+  }
+  .together_text {
+    width: 38%;  
+    font-family: Roboto, sans-serif;
+    font-weight: 500;  
+    font-style: italic; 
+    font-size: 195%;
+    color: white;
+    text-align: center;
+    margin: auto;
+    text-shadow: rgb(148, 147, 148);
+  }
+  .pied_piper_coin {
+    margin: 0;
+    height: 100%;
+    background-color: white;
+  }
+  .pied_piper_coin_title {
+    font-size: 400%;
+    text-align: center;
+    color: #007765;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;  
+    font-style: normal; 
+    margin: 0;
+  }
+  .pied_piper_coin_text {
+    width: 69%;
+    margin: auto;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;  
+    font-style: normal; 
+    font-size: 190%;
+    padding-bottom: 4%;
+  }
+  .pied_piper_coin_image {
+    float: left;
+    margin-right: 4%;
+    width: 100px;
+  }
+  .content {
+    /* margin: 0; */
+    background-color: #eeeeee;
+    padding-bottom: 7%;    
+  }
+  .content_title {
+    font-size: 400%;
+    text-align: center;
+    color: #007765;
+    padding-top: 4%;
+    padding-bottom: 0;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;  
+    font-style: normal; 
+    margin: 0;
+  }
+  .content_box  {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+        
+  } 
+  .card {
+    margin-bottom: 0;
+    padding: 5% 5% 1%;   
+    display: inline-block;
+    margin-right: 3%;
+    margin-left: 1%; 
+  }  
+  .card_image {
+    margin-bottom: 10%;
+  }
+  .card_title {
+    font-size: 140%;
+    text-align: center;
+    color: #007765;
+    padding-bottom: 1%;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;  
+    font-style: normal; 
+    margin: 0;
+  }
+  .card_text {
+    font-style: italic;
+    font-weight: normal;
+    font-family: Roboto, sans-serif;
+  }
+  .footer {
+    background-color: #333333;
+    height: 180px;
+    display: flex;
+  }
+  .footer_text {
+    width: 35%;
+    margin: auto;
+    color: white;
+    font-weight: normal;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-size: 110%;
+    text-align: center;
+  }
+
+ 
