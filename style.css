@@ -52,7 +52,7 @@ margin: 0;
   .intro {
     height: 350px;  
     background-color: rgb(0, 0, 0);
-    background-image: url(img/green-theme.png);
+    background-image: url(green-theme.png);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -98,7 +98,7 @@ margin: 0;
   .together {
       height: 350px;  
       background-color: rgb(69, 118, 209);
-      background-image: url(img/blue-theme.png);
+      background-image: url(blue-theme.png);
       background-size: cover;
       background-position: center;
       margin: 0;
